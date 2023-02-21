@@ -119,8 +119,8 @@
 
 <html>
   <head>
-        <title>PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization</title>
-        <meta property="og:title" content="PIFu" />
+        <title>Capturing the motion of every joint: 3D Human Pose and Shape Estimation with independent tokens</title>
+        <meta property="og:title" content="INT_HMR_Model" />
         <meta property="og:image" content="https://shunsukesaito.github.io/PIFu/resources/images/teaser.png" />
         <meta property="og:url" content="https://youtu.be/S1FpjwKqtPs" />
   </head>
@@ -128,7 +128,7 @@
   <body>
     <br>
     <center>
-    <span style="font-size:42px">PIFu: Pixel-Aligned Implicit Function for </br>High-Resolution Clothed Human Digitization</span>
+    <span style="font-size:42px">Capturing the Motion of Every Joint: 3D Human Pose and Shape Estimation with Independent Tokens</span>
     
     </center>
 
@@ -137,38 +137,38 @@
        <tr>
          <td align=center width=100px>
          <center>
-         <span style="font-size:20px"><a href="http://www-scf.usc.edu/~saitos/">Shunsuke Saito<sup>1,2 *</sup></a></span>
+         <span style="font-size:20px"><a href="https://scholar.google.com/citations?user=z5O3DLcAAAAJ&hl=zh-CN">Sen Yang<sup>1</sup></a></span>
          </center>
          </td>
 
         <td align=center width=100px>
         <center>
-        <span style="font-size:20px"><a href="https://zeng.science/">Zeng Huang<sup>1,2 *</sup></a></span>
+        <span style="font-size:20px"><a href="">Wen Heng<sup>2</sup></a></span>
         </center>
         </td>
 
         <td align=center width=100px>
           <center>
-          <span style="font-size:20px"><a href="https://scholar.google.co.jp/citations?user=0vZ20kgAAAAJ">Ryota Natsume<sup>3 *</sup></a></span>
+          <span style="font-size:20px"><a href="https://scholar.google.com/citations?user=ZyzfB9sAAAAJ&hl=zh-CN&authuser=1">Gang Liu<sup>2</sup></a></span>
           </center>
         </td>
       <tr>
       </tr>
         <td align=center width=100px>
           <center>
-          <span style="font-size:20px"><a href="https://scholar.google.com/citations?user=4B-C50EAAAAJ">Shigeo Morishima<sup>3</sup></a></span>
+          <span style="font-size:20px"><a href="https://github.com/guozhongluo">Guozhong Luo<sup>2</sup></a></span>
           </center>
         </td>
 
         <td align=center width=100px>
         <center>
-        <span style="font-size:20px"><a href="http://www.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa<sup>4</sup></a></span>
+        <span style="font-size:20px"><a href="https://dblp.org/pid/99/3602.html">Wankou Yang<sup>1</sup></a></span>
         </center>
         </td>
 
         <td align=center width=100px>
         <center>
-        <span style="font-size:20px"><a href="https://www.hao-li.com">Hao Li<sup>1,2,5</sup></a></span>
+        <span style="font-size:20px"><a href="https://www.skicyyu.org/">Gang Yu<sup>2</sup></a></span>
         </center>
         </td>
      </tr>
@@ -178,7 +178,7 @@
        <tr>
         <td align=center width=100px>
         <center>
-        <span style="font-size:16px"><br/>University of Southern California<sup>1</sup><br/>USC Institute for Creative Technologies<sup>2</sup><br/>Waseda University<sup>3</sup><br/>University of California, Berkeley<sup>4</sup><br/>Pinscreen<sup>5</sup><br/></span>
+        <span style="font-size:16px"><br/>Southeast University<sup>1</sup><br/>Tencent PCG<sup>2</sup><br/> </span>
         </center>
         </td>
      </tr>
@@ -189,19 +189,19 @@
      <tr>
        <td align=center width=100px>
        <center>
-       <span style="font-size:20px"><a href="https://arxiv.org/pdf/1905.05172.pdf">[Paper]</a></span>
+       <span style="font-size:20px"><a href="https://openreview.net/forum?id=0Vv4H4Ch0la">[Paper]</a></span>
        </center>
        </td>
 
       <td align=center width=100px>
       <center>
-      <span style="font-size:20px"><a href="https://youtu.be/S1FpjwKqtPs">[Video]</a></span>
+      <span style="font-size:20px"><a href="">[Video]</a></span>
       </center>
       </td>
        
       <td align=center width=100px>
       <center>
-      <span style="font-size:20px"><a href="https://github.com/shunsukesaito/PIFu">[Code]</a></span>
+      <span style="font-size:20px"><a href="https://github.com/yangsenius/INT_HMR_Model">[Code]</a></span>
       </center>
       </td>
       
@@ -210,31 +210,19 @@
 
             <br>
             <br>
-            <table align=center width=600px>
-                <tr>
-                    <td width=600px>
-                      <center>
-                          <a href="https://youtu.be/S1FpjwKqtPs"><img src = "./resources/images/teaser.png" height="300px"></img></href></a><br>
-                    </center>
-                    </td>
-                </tr>
-                    <td width=600px>
-                      <center>
-                          <span style="font-size:14px"><i>
-                            Our approach can digitize intricate variations in clothing, such as wrinkled skirts, high-heels, and complex hairstyles. Shape and textures can be fully recovered in largely unseen regions such as the back of the subject.
-                            Our method can also be extended to multi-view input images.</i>
-                    </center>
-                    </td>
-                </tr>
-            </table>
 
             <br>
               <div style="max-width:90%; margin:0 auto">
-                We introduce Pixel-aligned Implicit Function (PIFu), a highly effective implicit representation that locally aligns pixels of 2D images with the global context of their corresponding 3D object. Using PIFu, we propose an end-to-end deep learning method for digitizing highly detailed clothed humans that can infer both 3D surface and texture from a single image, and optionally, multiple input images. Highly intricate shapes, such as hairstyles, clothing, as well as their variations and deformations can be digitized in a unified way. Compared to existing representations used for 3D deep learning, PIFu can produce high-resolution surfaces including largely unseen regions such as the back of a person. In particular, it is memory efficient unlike the voxel representation, can handle arbitrary topology, and the resulting surface is spatially aligned with the input image. Furthermore, while previous techniques are designed to process either a single image or multiple views, PIFu extends naturally to arbitrary number of views. We demonstrate high-resolution and robust reconstructions on real world images from the DeepFashion dataset, which contains a variety of challenging clothing types. Our method achieves state-of-the-art performance on a public benchmark and outperforms the prior work for clothed human digitization from a single image.<br><br>
+              In this paper we present a novel method to estimate 3D human pose and shape from monocular videos. This task requires directly recovering pixel-alignment 3D human pose and body shape from monocular images or videos, which is challenging due to its inherent ambiguity. 
+To improve precision, existing methods highly rely on the initialized mean pose and shape as prior estimates and parameter regression with an iterative error feedback manner. In addition, video-based approaches model the overall change over the image-level features to temporally enhance the single-frame feature, but fail to capture the rotational motion at the joint level, and cannot guarantee local temporal consistency. 
+To address these issues, we propose a novel Transformer-based model with a design of independent tokens. First, we introduce three types of tokens independent of the image feature: joint rotation tokens, shape token, and camera token. 
+By progressively interacting with image features through Transformer layers, these tokens learn to encode the prior knowledge of human 3D joint rotations, body shape, and position information from large-scale data, and are updated to estimate SMPL parameters conditioned on a given image.
+Second, benefiting from the proposed token-based representation, we further use a temporal model to focus on capturing the rotational temporal information of each joint, which is empirically conducive to preventing large jitters in local parts.
+Despite being conceptually simple, the proposed method attains superior performances on the 3DPW and Human3.6M datasets. Using ResNet-50 and Transformer architectures, it obtains 42.0 mm error on the PA-MPJPE metric of the challenging 3DPW, outperforming state-of-the-art counterparts by a large margin.  
               </div>
-          <hr>
+          
          <!-- <table align=center width=550px> -->
-            <table align=center width=800>
+            <!-- <table align=center width=800>
              <center><h1>Paper</h1></center>
                 <tr>
                   <td><a href="https://arxiv.org/pdf/1905.05172.pdf"><img style="height:200px" src="./resources/images/paper.png"/></a></td>
@@ -245,11 +233,11 @@
                     <a href="https://shunsukesaito.github.io/PIFu/resources/bibtex.txt">[Bibtex]</a>
                     </td>
               </tr>
-            </table>
+            </table> -->
           <br>
 
                 <hr>
-                <center><h1>Paper Video</h1></center>
+                <!-- <center><h1>Paper Video</h1></center>
                 <table align=center width=900px>
                     <tr>
                         <td width=600px>
@@ -260,38 +248,42 @@
                         </center>
                         </td>
                     </tr>
-                </table>
+                </table> -->
                 <br>
-                <hr>
+               
 
-                <center><h1>Single-View Reconstruction</h1></center>
-                <table align=center width=900px>
+                <center><h1>Single-person Human Mesh Reconstruction</h1></center>
+                <table align=center width=1000px>
                     <tr>
-                        <td width=600px>
+                        <td width=1000px>
                           <center>
-                            <div class = "video">
-                              <video src="./resources/mp4/result_a.mp4" style="max-width:100%;" playsinline autoplay loop preload muted></video>
-                           </div>
+                            <!-- <div class = "video"> -->
+                              <video src="supplementary_videos/contrast_1.mov" style="max-width:80%;" playsinline autoplay loop preload muted></video>
+                           <!-- </div> -->
 
-                            <div class = "video">
-                              <video src="./resources/mp4/result_b.mp4" style="max-width:100%;" playsinline autoplay loop preload muted></video>
-                            </div>
-                        </center>
+                            <!-- <div class = "video"> -->
+                              <video src="supplementary_videos/contrast_out_slalom.mov" style="max-width:40%;" playsinline autoplay loop preload muted></video>
+      
+                            <!-- </div> -->
+
+                            <video src="supplementary_videos/contrast_outdoors_climbing.mov" style="max-width:40%;" playsinline autoplay loop preload muted></video>
+                        
+                          </center>
                         </td>
                     </tr>
                 </table>
                 <br>
                 <hr>
    
-                <center><h1>Multi-View Reconstruction</h1></center>
-                <table align=center width=900px>
+                <center><h1>Multi-person Human Mesh Reconstruction</h1></center>
+                <table align=center width=1000px>
                     <tr>
-                        <td width=600px>
+                        <td width=1000px>
                           <center>
                             <div class = "video">
-                              <img src="./resources/images/input.png" alt="" style="max-width:30%;">
-                              <video src="./resources/mp4/multi_geo.mp4" style="max-width:30%;" playsinline autoplay loop preload muted></video>
-                              <video src="./resources/mp4/multi_col.mp4" style="max-width:30%;" playsinline autoplay loop preload muted></video>
+                              <!-- <img src="./resources/images/input.png" alt="" style="max-width:30%;"> -->
+                              <video src="supplementary_videos/contrast_downtown_runForbus2.mov" style="max-width:40%;" playsinline autoplay loop preload muted></video>
+                              <!-- <video src="supplementary_videos/contrast_posetrack.mp4" style="max-width:40%;" playsinline autoplay loop preload muted></video> -->
 
                             </div>
                         </center>
@@ -301,37 +293,14 @@
                 <br>
                 <hr>
 
-                <center><h1>Support Arbitrary Number of Views</h1></center>
-                <table align=center width=900px>
-                    <tr>
-                        <td width=600px>
-                          <center>
-                            <div class = "video">
-                              <video src="./resources/mp4/multi.mp4" style="max-width:100%;" autoplay loop preload muted playsinline></video>
-                           </div>
-                        </center>
-                        </td>
-                    </tr>
-                </table>
+                
                 <br>
-                <hr>
+              
 
-                <center><h1>Single-View Video Reconstruction</h1></center>
-                <table align=center width=900px>
-                    <tr>
-                        <td width=600px>
-                          <center>
-                            <div class = "video">
-                              <video src="./resources/mp4/video.mp4" style="max-width:100%;" autoplay loop preload muted playsinline></video>
-                           </div>
-                           </div>
-                        </center>
-                        </td>
-                    </tr>
-                </table>
+                
                 <br>
-                <hr>
-
+               
+<!-- 
          <center><h1>Code</h1></center>
             <table align=center width=1000px>
                 <tr>
@@ -350,7 +319,7 @@
               </center></tr>
           </table>
             <br>
-          <hr>
+          <hr> -->
 
 
             <table align=center width=1000px>
@@ -359,7 +328,7 @@
                       <left>
                 <center><h1>Acknowledgements</h1></center>
                     <div style="max-width: 90%; margin:0 auto">
-                      Hao Li is affiliated with the University of Southern California, the USC Institute for Creative Technologies, and Pinscreen. This research was conducted at USC and was funded by in part by the ONR YIP grant N00014-17-S-FO14, the CONIX Research Center, one of six centers in JUMP, a Semiconductor Research Corporation program sponsored by DARPA, the Andrew and Erna Viterbi Early Career Chair, the U.S. Army Research Laboratory under contract number W911NF-14-D-0005, Adobe, and Sony. This project was not funded by Pinscreen, nor has it been conducted at Pinscreen or by anyone else affiliated with Pinscreen. Shigeo Morishima is supported by the JST ACCEL Grant Number JPMJAC1602, JSPS KAKENHI Grant Number JP17H06101, the Waseda Research Institute for Science and Engineering. Angjoo Kanazawa is supported by the Berkeley Artificial Intelligence Research sponsors. The content of the information does not necessarily reflect the position or the policy of the Government, and no official endorsement should be inferred. This webpage template was borrowed from <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
+                      This work was supported by the National Natural Science Foundation of China under Nos. 62276061, 61773117 and 62006041. This webpage template was borrowed from <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
                     </div>
                 </left>
         </td>
