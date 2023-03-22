@@ -2,11 +2,11 @@
 
 [[project]](https://yangsenius.github.io/INT_HMR_Model/) [[arxiv]](https://arxiv.org/abs/2303.00298) [[paper]](https://openreview.net/forum?id=0Vv4H4Ch0la)
 
-<img src="doc/dance5_.gif" width="28%"> <img src="doc/micheal2.gif" width="37%">  <img src="doc/out3.gif" width="18%"> 
+<img src="doc/dance5_.gif" width="30%"> <img src="doc/micheal2.gif" width="40%">  <img src="doc/out3.gif" width="19%"> 
 
 
-> [Capturing the motion of every joint: 3D human pose and shape estimation with independent tokens](https://openreview.net/pdf?id=0Vv4H4Ch0la)
-> Sen Yang, Wen Heng, Gang Liu, Guozhong Luo, Wankou Yang, Gang Yu
+> [Capturing the motion of every joint: 3D human pose and shape estimation with independent tokens](https://openreview.net/pdf?id=0Vv4H4Ch0la),
+> Sen Yang, Wen Heng, Gang Liu, Guozhong Luo, Wankou Yang, Gang Yu,
 > *ICLR 2023 (spotlight)*
 
 
@@ -48,15 +48,16 @@ To run on 4 machines with 4 GPUs each
 sh hvd_start.sh 16 server1_ip:4,server2_ip:4,server3_ip:4,server4_ip:4
 ```
 Here we show the training commands of using a single machine with 4 GPUs for the proposed scheme of progressive 3-stage training.
-Image based pretraining:
+
+1.Image based pre-training:
 ```
 sh exp/phase1/hvd_start.sh 4 localhost:4
 ``` 
-Image/Video based pretraining:
+2.Image/Video based pre-training:
 ```
 sh exp/phase2/hvd_start.sh 4 localhost:4
 ``` 
-Fine-tuning:
+3.Fine-tuning:
 ```
 sh exp/phase3/hvd_start.sh 4 localhost:4
 ``` 
