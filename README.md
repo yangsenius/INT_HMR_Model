@@ -1,12 +1,16 @@
 ## Capturing the Motion of Every Joint: 3D Human Pose and Shape Estimation with Independent Tokens
 
-[[project]](https://yangsenius.github.io/INT_HMR_Model/) [[arxiv]](https://arxiv.org/abs/2303.00298) [[paper]](https://openreview.net/forum?id=0Vv4H4Ch0la)
+[[project]](https://yangsenius.github.io/INT_HMR_Model/) [[arxiv]](https://arxiv.org/abs/2303.00298) [[paper]](https://openreview.net/forum?id=0Vv4H4Ch0la)[[examples]](https://yangsenius.github.io/INT_HMR_Model/)
 
 <img src="doc/dance5_.gif" width="30%"> <img src="doc/micheal2.gif" width="40%">  <img src="doc/out3.gif" width="19%"> 
 
+*The multi-person videos above are based on the VIBE detection and tracking framework.*
+
 
 > [Capturing the motion of every joint: 3D human pose and shape estimation with independent tokens](https://openreview.net/pdf?id=0Vv4H4Ch0la),
-> Sen Yang, Wen Heng, Gang Liu, Guozhong Luo, Wankou Yang, Gang Yu,
+>
+> [Sen Yang](https://scholar.google.com/citations?user=z5O3DLcAAAAJ&hl=zh-CN), [Wen Heng](), [Gang Liu](https://scholar.google.com/citations?user=ZyzfB9sAAAAJ&hl=zh-CN&authuser=1), [Guozhong Luo](https://github.com/guozhongluo), [Wankou Yang](https://scholar.google.com/citations?user=inPYAuYAAAAJ&hl=zh-CN), [Gang Yu](https://www.skicyyu.org/),
+>
 > *ICLR 2023 (spotlight)*
 
 
