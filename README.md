@@ -7,11 +7,11 @@
 *The multi-person videos above are based on the VIBE detection and tracking framework.*
 
 
-> [Capturing the motion of every joint: 3D human pose and shape estimation with independent tokens](https://openreview.net/pdf?id=0Vv4H4Ch0la),
->
-> [Sen Yang](https://scholar.google.com/citations?user=z5O3DLcAAAAJ&hl=zh-CN), [Wen Heng](), [Gang Liu](https://scholar.google.com/citations?user=ZyzfB9sAAAAJ&hl=zh-CN&authuser=1), [Guozhong Luo](https://github.com/guozhongluo), [Wankou Yang](https://scholar.google.com/citations?user=inPYAuYAAAAJ&hl=zh-CN), [Gang Yu](https://www.skicyyu.org/),
->
-> *ICLR 2023 (spotlight)*
+
+> [**Capturing the motion of every joint: 3D human pose and shape estimation with independent tokens**](https://openreview.net/pdf?id=0Vv4H4Ch0la),       
+> [Sen Yang](https://yangsenius.github.io/INT_HMR_Model/), [Wen Heng](), [Gang Liu](https://scholar.google.com/citations?user=ZyzfB9sAAAAJ&hl=zh-CN&authuser=1), [Guozhong Luo](https://github.com/guozhongluo), [Wankou Yang](https://scholar.google.com/citations?user=inPYAuYAAAAJ&hl=zh-CN), [Gang Yu](https://www.skicyyu.org/),    
+> *The Eleventh International Conference on Learning Representations,  ICLR2023 spotlight* 
+
 
 
 ## Getting Started
