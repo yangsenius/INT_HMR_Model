@@ -2,7 +2,7 @@
 
 [[project]](https://yangsenius.github.io/INT_HMR_Model/) [[arxiv]](https://arxiv.org/abs/2303.00298) [[paper]](https://openreview.net/forum?id=0Vv4H4Ch0la)[[examples]](https://yangsenius.github.io/INT_HMR_Model/)
 
-<img src="doc/dance5_.gif" width="30%"> <img src="doc/micheal2.gif" width="40%">  <img src="doc/out3.gif" width="19%"> 
+<img src="doc/dance5_.gif" width="28%"> <img src="doc/micheal2.gif" width="37%">  <img src="doc/cxk.gif" width="28%"> 
 
 *The multi-person videos above are based on the VIBE detection and tracking framework.*
 
