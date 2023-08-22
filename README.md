@@ -72,6 +72,13 @@ sh exp/phase3/hvd_start.sh 4 localhost:4
 sh exp/eval/hvd_start.sh 4 localhost:4
 ```
 
+## Pretrained models
+
+|PA-MPJPE (3DPW test set)|Length of temp embed.|Link|
+|:-:|:-:|-|
+|42.0 (T=64)|16|[Model-1 Google drive](https://drive.google.com/file/d/1ffCEhjXxOQ5EIx3Xt2NF0EoOx-3Py0he/view?usp=drive_link)|
+|42.3 (T=64)|64|[Model-2 Google drive](https://drive.google.com/file/d/1Kq25NESN6d2QQtUJ02Fjme4BEobWe3Az/view?usp=drive_link)|
+
 ## Citation
 If you find this repository useful please give it a star 🌟 or consider citing our work:
 
